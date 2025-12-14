@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Pool - Premium Kolam Renang </title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./img/logo.png">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">Aditya<span>Pool</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#pools">Koleksi Kolam</a></li>
+            <li><a href="#wahana">Wahana</a></li>
+            <li><a href="#ticket">Tiket</a></li>
+            <li><a href="#location">Lokasi</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Dive Into <br>The <span>Blue</span></h1>
+            <p>Nikmati pengalaman berenang terbaik dengan standar kebersihan internasional dan wahana keluarga terlengkap di Jakarta.</p>
+            <button class="btn-primary" onclick="document.getElementById('ticket').scrollIntoView({behavior: 'smooth'})">Booking Sekarang</button>
+        </div>
+    </section>
+
+    <section id="pools" class="container">
+        <div class="header-center">
+            <h2 class="section-title">Kolam</h2>
+            <p>Dirancang khusus untuk kenyamanan, keamanan, dan relaksasi Anda.</p>
+        </div>
+
+        <div class="zigzag-wrapper">
+            <div class="pool-item">
+                <div class="pool-img">
+                    <img src="./img/kolam1.jpg" alt="Kolam 1,8m">
+                </div>
+                <div class="pool-text">
+                    <span class="number">01</span>
+                    <h3>Kolam Renang 1.8 Meter</h3>
+                    <p>Kolam panjang 50m dan kedalaman ideal 1,8 meter. Air dijaga pada suhu yang sempurna untuk performa atletik maksimal.</p>
+                    <ul class="mini-feat">
+                        <li><i class="fas fa-ruler-horizontal"></i> 50 Meter</li>
+                        <li><i class="fas fa-water"></i> Deep Water</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pool-item inverted">
+                <div class="pool-img">
+                    <img src="./img/kolam_anak.png" alt="Kiddie Pool">
+                </div>
+                <div class="pool-text">
+                    <span class="number">02</span>
+                    <h3>Kolam Renang Anak-Anak</h3>
+                    <p>Surga air untuk si kecil dengan tinggi hanya 0.8 Meter. Kedalaman aman 50cm dengan lantai anti-slip. Dilengkapi jamur air, pancuran, dan seluncuran mini yang diawasi lifeguard khusus anak.</p>
+                    <ul class="mini-feat">
+                        <li><i class="fas fa-baby"></i> Safe Depth</li>
+                        <li><i class="fas fa-shield-alt"></i> Lifeguard</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pool-item">
+                <div class="pool-img">
+                    <img src="./img/kolam_sedang(remaja).png" alt="Jacuzzi">
+                </div>
+                <div class="pool-text">
+                    <span class="number">03</span>
+                    <h3>Kolam Renang 1.0 Meter</h3>
+                    <p>Lepaskan penat di kolam air hangat (38°C) dengan sistem hydrotherapy modern. Semburan air bertekanan lembut akan memijat punggung dan kaki Anda.</p>
+                    <ul class="mini-feat">
+                        <li><i class="fas fa-temperature-high"></i> Warm Water</li>
+                        <li><i class="fas fa-spa"></i> Hydrotherapy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="wahana" class="container bg-dark">
+        <div class="header-center text-white">
+            <h2 class="section-title white-line">Wahana & Fasilitas</h2>
+            <p style="color: #ccc;">Lebih seru, lebih lengkap, lebih nyaman</p>
+        </div>
+
+        <div class="facility-grid">
+            <div class="facility-card">
+                <img src="./img/perosotan.png" alt="Perosotan">
+                <div class="overlay">
+                    <i class="fas fa-water"></i>
+                    <h3>Wahana Permainan Anak</h3>
+                    <p>Ada beberapa wahana permainan untuk anak-anak, seperti perosotan dan ember tumpah</p>
+                </div>
+            </div>
+       
+            <div class="facility-card">
+                <img src="./img/foodcourt.png" alt="Food Court">
+                <div class="overlay">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Food Court</h3>
+                    <p>Pilihan makanan untuk mengisi energi setelah berenang.</p>
+                </div>
+            </div>
+
+            <div class="facility-card">
+                <img src="./img/gazebo.png" alt="Gazebo">
+                <div class="overlay">
+                    <i class="fas fa-umbrella-beach"></i>
+                    <h3>Gazebo VIP</h3>
+                    <p>Privasi dan kenyamanan keluarga.</p>
+                </div>
+            </div>
+
+            <div class="facility-card">
+                <img src="./img/sewa ban.png" alt="Sewa Ban">
+                <div class="overlay">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <h3>Penyewaan Ban</h3>
+                    <p>Bisa menyewa ban untuk digunakan didalam kolam</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ticket" class="ticket-section">
+        <div class="container">
+            <div class="header-center">
+                <h2 class="section-title">Tiket Masuk</h2>
+                <p>Pilih waktu kunjungan terbaik Anda</p>
+            </div>
+
+            <div class="ticket-list">
+                <div class="ticket-row">
+                    <div class="ticket-info">
+                        <h3>Senin - Jumat</h3>
+                        <p class="desc">Akses standar untuk hari kerja yang tenang.</p>
+                        <div class="features-inline">
+                            <span><i class="fas fa-check"></i> Semua Kolam</span>
+                            <span><i class="fas fa-check"></i> Free Wifi</span>
+                            <span><i class="fas fa-parking"></i> Parkir Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ticket-price-box">
+                        <div class="price">Rp 25.000</div>
+                        <span class="per-pax">/ orang</span>
+                        <button class="btn-outline-dark">Pesan Tiket</button>
+                    </div>
+                </div>
+
+                <div class="ticket-row highlight">
+                    <div class="ticket-info">
+                        <div class="badge-text">Paling Ramai 🔥</div>
+                        <h3>Sabtu, Minggu & Libur</h3>
+                        <p class="desc">Pengalaman rekreasi penuh dengan hiburan.</p>
+                        <div class="features-inline">
+                            <span><i class="fas fa-check"></i> Akses Water Slide</span>
+                            <span><i class="fas fa-umbrella-beach"></i> Semua Kolam</span>
+                        </div>
+                    </div>
+                    <div class="ticket-price-box">
+                        <div class="price">Rp 40.000</div>
+                        <span class="per-pax">/ orang</span>
+                        <button class="btn-primary-dark">Pesan Tiket</button>
+                    </div>
+                </div>
+
+                <div class="ticket-row">
+                    <div class="ticket-info">
+                        <h3>Sewa Perlengkapan</h3>
+                        <p class="desc">Tambahan fasilitas untuk kenyamanan ekstra.</p>
+                        <div class="features-inline">
+                            <span><i class="fas fa-key"></i> Loker (10rb)</span>
+                            <span><i class="fas fa-life-ring"></i> Ban (15rb)</span>
+                            <span><i class="fas fa-tshirt"></i> Baju Renang (20rb)</span>
+                        </div>
+                    </div>
+                    <div class="ticket-price-box">
+                        <div class="price-small">Mulai Rp 10rb</div>
+                        <button class="btn-outline-dark">Cek di Lokasi</button>
+                    </div>
+                </div>
+
+                <div class="ticket-row">
+                    <div class="ticket-info">
+                        <h3>Annual Pass</h3>
+                        <p class="desc">Akses standar untuk hari Anda yang sering ingin berenang</p>
+                        <div class="features-inline">
+                            <span><i class="fas fa-check"></i> Semua Kolam</span>
+                            <span><i class="fas fa-check"></i> Free Wifi</span>
+                            <span><i class="fas fa-parking"></i> Parkir Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ticket-price-box">
+                        <div class="price">Rp 100.000</div>
+                        <span class="per-pax">/ bulan</span>
+                        <button class="btn-outline-dark">Pesan Tiket</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="location-minimal">
+        <div class="container">
+            <div class="loc-top">
+                <h2 class="section-title white-line">Lokasi & Kontak</h2>
+                <p class="loc-tagline">Datang dan rasakan kesegarannya langsung di jantung Jakarta Selatan.</p>
+            </div>
+
+            <div class="loc-content">
+                <div class="loc-col">
+                    <div class="icon-floating">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h4>Alamat</h4>
+                    <p>Jl. Raya Ceria No. 12, Komplek Olahraga,<br>Jakarta Selatan, 12345.</p>
+                    <a href="https://goo.gl/maps" target="_blank" class="link-arrow">
+                        Buka Google Maps <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="loc-col">
+                    <div class="icon-floating">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h4>Jam Operasional</h4>
+                    <ul class="clean-list">
+                        <li><span>Senin - Jumat</span> 07:00 - 18:00</li>
+                        <li><span>Akhir Pekan</span> 06:00 - 20:00</li>
+                    </ul>
+                </div>
+
+                <div class="loc-col">
+                    <div class="icon-floating">
+                        <i class="fas fa-comment-dots"></i>
+                    </div>
+                    <h4>Hubungi Kami</h4>
+                    <p class="mb-small">Butuh bantuan reservasi?</p>
+                    <div class="contact-row">
+                        <a href="#" class="contact-pill">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                        <a href="mailto:info@adityapool.com" class="contact-text">
+                            info@adityapool.com
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Segara Public Pool. Recreation & Sports Center.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
